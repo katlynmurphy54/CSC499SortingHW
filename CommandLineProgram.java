@@ -1,7 +1,7 @@
 /*
 course: CSC 499
-project: HW 1
-date: 03/10/21
+project: HW 2
+date: 03/17/21
 author: Katlyn Murphy
 purpose: The purpose of this assignment is to write a command-line program to
 sort the contents of this file in ascending order by the length of the name, 
@@ -32,6 +32,15 @@ public class CommandLineProgram {
         }
     }
     
+    //added argument to reverse the arraylist
+    public static ArrayList<String> reverseArrayList(ArrayList<String> inputList) { 
+        ArrayList<String> reverseArrayList = new ArrayList<String>(); 
+        for (int i = inputList.size() - 1; i >= 0; i--) {
+            reverseArrayList.add(inputList.get(i)); 
+        } 
+        return reverseArrayList; 
+    } 
+
     public static void main(String[] args) throws IOException {
         //input variable
         String inputFile = "C:\\Users\\katly\\Desktop\\input.txt";
@@ -61,6 +70,10 @@ public class CommandLineProgram {
             //sort the list by length using the comparator which also sorts alphabetically 
             Collections.sort(inputList, new LengthFirstComparator());
             
+            //////////////////////////////////////////////////////////////////
+            //Save the reverse array in the inputList so that it prints it to the output correctly
+            inputList = reverseArrayList(inputList);
+
             //create the filewrite object to write the sorted lines into the output text file
             fileWriter = new FileWriter(outputFile);
             PrintWriter out = new PrintWriter(fileWriter);
