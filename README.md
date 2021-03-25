@@ -5,5 +5,12 @@ We are then suppose to commit this to a Github repo.
 <br />
 Then we must change the code and an argument that reverses the sort and commit that. 
 <br />
-I have added my files in a zip folder containing all you need to run the project. 
-<br /> HW 1 zip is the files just sorting the array by length and alphabetically while HW 2 zip reverses the array and has an updated read me. 
+Instructions for the Junit Testing of the Sorting App:
+<br />
+You must save your input file onto your desktop. Your desktop is also where your output file location will be. If you would like to use somewhere else, you must update the path location for the string inputFile and outputFile. 
+<br />
+You must create an expected file on your desktop and the contents must contain the expected outcome you are expecting to receieve.
+<br />
+You cannot run both tests together since they are both saving in the same location. 
+<br />
+The first test does not include the reverse while the second test does. 
