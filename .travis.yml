@@ -2,5 +2,4 @@ language: java
 
 # command to run tests
 script:
-  - cd 499Assignment
   - java SortingAppTest.java
