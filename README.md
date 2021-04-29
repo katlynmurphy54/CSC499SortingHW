@@ -1,6 +1,6 @@
 # CSC 499 - CS Career Preparation - Spring 2021
 
-## Sorting Homework
+This is the source code for my submission of the CSC 499 Sorting Homework individual project in Spring 2021 @ EKU.
 
 This is my assignment for Career Preparation. We are to take an input file with a list of names and sort it by length then alphabetically. 
 We are then suppose to commit this to a Github repo.
