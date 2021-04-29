@@ -1,4 +1,4 @@
-# CSC 499 Sorting HW
+# CSC 499 Sorting HW - Spring 2021
 This is my assignment for Career Preparation. We are to take an input file with a list of names and sort it by length then alphabetically. 
 <br />
 We are then suppose to commit this to a Github repo.
